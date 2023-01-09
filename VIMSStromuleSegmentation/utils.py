@@ -5,7 +5,7 @@ from skimage.transform import rotate
 from skimage.util.shape import view_as_windows
 from keras.models import Model
 from keras.losses import binary_crossentropy, categorical_crossentropy
-from keras.layers import Convolution2D, MaxPooling2D, Lambda, Reshape, Flatten, merge
+from keras.layers import Convolution2D, MaxPooling2D, Lambda, Reshape, Flatten
 from keras.layers import Input, Concatenate, UpSampling2D, Dropout, BatchNormalization
 from keras.callbacks import ModelCheckpoint
 from keras import backend as K
